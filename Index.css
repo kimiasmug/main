@@ -1,0 +1,141 @@
+/* =========================================
+   Grundeinstellungen
+   ========================================= */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-color: #433F46;
+
+    font-family: "Quadrant Text Mono", monospace;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* =========================================
+   KARTEN
+   ========================================= */
+
+.card {
+    width: 650px;
+    max-width: 85%;
+
+    padding: 55px;
+
+    box-sizing: border-box;
+
+    background-color: #E7E7E0;
+
+    color: #433F46;
+
+    text-align: center;
+
+    border: 2px solid #E7E7E0;
+}
+
+
+/* =========================================
+   Überschrift
+   ========================================= */
+
+.card h1 {
+    margin: 0;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 40px;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================================
+   Linie
+   ========================================= */
+
+.line {
+    width: 50px;
+    height: 2px;
+
+    background-color: #433F46;
+
+    margin: 25px auto;
+}
+
+
+/* =========================================
+   Text
+   ========================================= */
+
+.card p {
+    max-width: 500px;
+
+    margin: 15px auto;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   Link
+   ========================================= */
+
+.link {
+    display: inline-block;
+
+    margin-top: 25px;
+
+    padding: 13px 22px;
+
+    color: #433F46;
+
+    border: 1px solid #433F46;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    letter-spacing: 1px;
+}
+
+.link:hover {
+    background-color: #433F46;
+
+    color: #E7E7E0;
+}
+
+
+/* =========================================
+   Mobile
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    .card {
+        width: 90%;
+
+        padding: 35px 25px;
+    }
+
+    .card h1 {
+        font-size: 30px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+}
