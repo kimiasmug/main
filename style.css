@@ -1,3 +1,4 @@
+
 /* =========================================
    Grundeinstellungen
    ========================================= */
@@ -25,7 +26,7 @@ body {
 
 
 /* =========================================
-   KARTEN
+   Karte
    ========================================= */
 
 .card {
@@ -91,31 +92,27 @@ body {
 
 
 /* =========================================
-   Link
+   Direkter Link
    ========================================= */
 
-.link {
-    display: inline-block;
+.online-link {
+    display: block;
 
     margin-top: 25px;
 
-    padding: 13px 22px;
-
     color: #433F46;
 
-    border: 1px solid #433F46;
-
-    text-decoration: none;
+    text-decoration: underline;
 
     font-size: 13px;
 
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+
+    overflow-wrap: break-word;
 }
 
-.link:hover {
-    background-color: #433F46;
-
-    color: #E7E7E0;
+.online-link:hover {
+    color: #CCAEB9;
 }
 
 
@@ -138,4 +135,9 @@ body {
     .card p {
         font-size: 12px;
     }
+
+    .online-link {
+        font-size: 11px;
+    }
 }
+
